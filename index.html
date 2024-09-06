@@ -47,18 +47,17 @@
             width: 150px;
             height: 150px;
         }
-        .gallery {
-            display: flex;
-            justify-content: center;
-            margin: 20px 0;
-        }
-        .gallery img {
-            width: 200px;
-            height: 150px;
-            margin: 0 10px;
-            border: 2px solid #00A1E0;
-            display: none; /* Hidden by default for scrolling */
-        }
+        .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Responsive grid */
+    gap: 15px;
+}
+img {
+    width: 100%;
+}
+
+
+
         .section {
             margin: 50px 0;
         }
@@ -130,8 +129,8 @@
         <!-- Scrolling Gallery Section -->
         <div class="gallery">
             <img src="C:\Users\USER\Music\images\law.jpg" alt="Legal Image 1" style="display: block;">
-            <img src="C:\Users\USER\Music\images\law.jpg" alt="Legal Image 2">
-            <img src="C:\Users\USER\Music\images\law.jpg" alt="Legal Image 3">
+            <img src="C:\Users\USER\Music\images\lawd.jpg" alt="Legal Image 2">
+            <img src="C:\Users\USER\Music\images\ksu law schl.jpg"alt="ksu law school">
         </div>
 
         <!-- Poetry Corner Section -->
